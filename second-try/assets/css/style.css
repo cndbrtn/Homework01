@@ -1,0 +1,116 @@
+html, body {
+    height: 100%;
+  }
+/* I don't know how this flex grid shit works but it did this time */
+body {
+    display: flex;
+    flex-direction: column;
+  }
+
+body {
+    background-image: url(../img/marble-bg.jpg);
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    line-height: 2;
+    color: #666;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+h1 {
+    color: #fff;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    background: #4aaaa5;
+    display: inline;
+    padding: 20.5px;
+    line-height: 1.5;
+}
+
+h2 {
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    padding-left: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #ccc;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    flex-shrink: 0;
+    border-top: 8px solid #4aaaa5;
+    background: #666;
+    color: #fff;
+    text-align: center;
+    clear: both;
+    padding-top: 30px;
+    font-size: 12px;
+    width: 100%;
+}
+
+#holder {
+    width: 960px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    flex: 1 0 auto;
+}
+
+#white-bar {
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    background: #fff;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    height: 87px;
+    clear: both;
+    border-bottom: 2px solid #ccc;
+}
+
+#name,
+#site-nav,
+#spacer {
+    float: left;
+    width: 320px;
+    margin-top: 15px;
+    margin-bottom: 60px;
+    position: relative;
+    bottom: -20px;
+}
+
+#site-nav {
+    text-align: right;
+}
+
+#main {
+    clear: both;
+    border: 1px solid #ccc;
+    background: #fff;
+    overflow: auto;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+#bio-img {
+    float: left;
+    padding: 5px 20px 0 0;
+}
+
+#line-break {
+    background: #ccc;
+    padding: 2px;
+    width: 95%;
+    margin: 20px;
+    clear: both;
+    margin: 0 auto;
+}
+
+#content {
+    padding: 0 10px 0 20px;
+}
