@@ -1,6 +1,30 @@
-.img {
-    padding: 0 20px 20px 0;
+.img-parent {
+    position: relative;
+    width: 200px;
+    padding: 0;
+    float: left;
+    margin: 10px;
+}
+
+.img-chld {
+    position: absolute;
+    top: 115px;
+    color: #fff;
+    background: #4aaaa5;
+    width: 100%;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
 }
 
 #content {
-    padding: 30px 10px 0 20px;
+    padding: 25px 0px 0 15px;
+    width: 600px;
+}
+
+p { 
+    font-size: 10pt;
+    color: #fff;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
